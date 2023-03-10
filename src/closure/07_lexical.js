@@ -28,7 +28,7 @@ myFunction();
 function sumWithClosure(firstNum = 0) {
     let sumatoria = 0;
     return function(secondNum = 0) {
-        sumatoria += firstNum + (secondNum != NaN ? secondNum : 0);
+        sumatoria += firstNum + (isNaN(secondNum) ? 0 : secondNum);
         console.log(sumatoria);
         return sumatoria;
     };
