@@ -27,15 +27,13 @@ bestFruit();
 
 //tener cuidado cuando se declara 
 
-function countries(){
+function countries() {
     country = 'Ecuador';//se puede considerar como GLOBAL
     console.log(country);
 }
 
 countries();
 console.log(country);
-
-
 
 
 
