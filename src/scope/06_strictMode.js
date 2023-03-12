@@ -2,6 +2,9 @@
 //Fue incorporado en ECMA script 5
 //permite ejecutar de manera estricta las reglas requeridas para el standart de JS
 
+//permite ejecutar de forma esctricta para 
+//que se pueda asignar las variables
+
 //Ejemplos
 
 //var pi;//undefined

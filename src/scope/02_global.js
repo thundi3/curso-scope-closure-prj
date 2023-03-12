@@ -1,3 +1,6 @@
+//Curso emitido por : Oscar Barajas Tavares
+
+
 //variables
 
 var a; //declaracion de la variable a
