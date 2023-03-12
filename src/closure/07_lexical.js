@@ -7,6 +7,7 @@
 //a una variable fuera de su contexto y la recuerda.
 
 //Ambito Lexico
+
 //--como se puede acceder a la variables desde los otrs ambitos de las funciones anidadas
 //la accesibilidad de las variables esta determinada por la posicion de las 
 //mismas dentro de los ambitos anidados no es mas que cada una de las funciones que se tienen
