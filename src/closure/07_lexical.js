@@ -1,15 +1,27 @@
 //Closure
-
+//permite acceder al ambito de una funcion exterior desde una funcion interior
+//se tiene que tratar de utilizar lo mas que se pueda los closures
 //se ve alcance de los scopes
+
+//Tiene una closure cuando un funcion cualquiera accede
+//a una variable fuera de su contexto y la recuerda.
+
+//Ambito Lexico
+//--como se puede acceder a la variables desde los otrs ambitos de las funciones anidadas
+//la accesibilidad de las variables esta determinada por la posicion de las 
+//mismas dentro de los ambitos anidados no es mas que cada una de las funciones que se tienen
+//
 
 const myGlobal = 0;
 
+//funcion anidada
 function myFunction() {
+
     const myNumber = 1;
     console.log(myGlobal);
 
     function parent() {
-        //funcion interna
+        //funcion interna -- esto seria tener un closure
         const inner = 2;
         console.log(myNumber, myGlobal);
 
